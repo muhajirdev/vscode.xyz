@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Layout from "../components/layout";
-import { TWITTER_URL, TITLE } from "../config";
+import { TWITTER_URL, TITLE, AUTHOR_TWITTER_URL } from "../config";
 
 const GIF_SRC =
   "https://cdn.hashnode.com/res/hashnode/image/upload/v1561899815957/rY6Rk-Qp8.gif";
@@ -37,7 +37,11 @@ const Home = () => (
             <a href={TWITTER_URL} className="underline">
               @vscodexyz
             </a>{" "}
-            for the the updates
+            and{" "}
+            <a href={AUTHOR_TWITTER_URL} className="underline">
+              @muhajirdev
+            </a>{" "}
+            for updates
           </h2>
         </div>
       </section>
