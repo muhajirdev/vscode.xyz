@@ -1,11 +1,15 @@
+import Head from "next/head";
 import Layout from "../components/layout";
-import { TWITTER_URL } from "../config";
+import { TWITTER_URL, TITLE } from "../config";
 
 const GIF_SRC =
   "https://cdn.hashnode.com/res/hashnode/image/upload/v1561899815957/rY6Rk-Qp8.gif";
 
 const Home = () => (
   <Layout>
+    <Head>
+      <title>{TITLE}</title>
+    </Head>
     <div className="bg-dark pt-32">
       {/* FIRST SECTION */}
       <section className="max-w-6xl mx-auto flex py-32">
