@@ -1,0 +1,7 @@
+@tailwind base;
+html {
+    font-family: 'Space Mono', monospace;
+
+}
+@tailwind components;
+@tailwind utilities;
