@@ -34,7 +34,7 @@ const Home = () => (
       <section className="max-w-6xl mx-auto py-32">
         <div>
           <h1 className="text-white font-bold text-5xl mb-16">
-            Coming Soon :)
+            We're not done yet :)
           </h1>
           <h2 className="text-gray-200 text-2xl max-w-4xl">
             Follow us on twitter{" "}
@@ -45,7 +45,7 @@ const Home = () => (
             <a href={AUTHOR_TWITTER_URL} className="underline">
               @muhajirdev
             </a>{" "}
-            for updates
+            for more animated tips and tricks
           </h2>
         </div>
       </section>
