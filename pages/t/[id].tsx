@@ -82,7 +82,7 @@ const Tips: React.FC<ITips> = props => {
     <div>
       <section className="max-w-6xl mx-auto flex pt-24">
         <div className="w-2/3 pr-8">
-          <img src={props.gif} className="w-full h-auto shadow-2xl" />
+          <img src={props.gif} className="w-full h-auto shadow-2xl rounded" />
         </div>
         <div className="w-1/3">
           <h1 className="text-white font-bold text-4xl mb-8">{props.title}</h1>
