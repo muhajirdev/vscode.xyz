@@ -2,11 +2,11 @@
     "plugins": {
         "vscode-vim": {
             "name": "VSCode VIM",
-            "url": "https://www.google.com"
+            "url": "https://marketplace.visualstudio.com/items?itemName=vscodevim.vim"
         },
         "emmet": {
             "name": "Emmet",
-            "url": "https://www.google.com"
+            "url": "https://code.visualstudio.com/docs/editor/emmet"
         }
     },
     "contributors": {
