@@ -17,6 +17,16 @@
     },
     "tips": [
         {
+            "title": "Go to matching tag",
+            "slug": "go-to-matching-tag",
+            "description": "Press `dst`",
+            "gif": "https://cdn.hashnode.com/res/hashnode/image/upload/v1562811003814/UHXvSZYgk.gif",
+            "plugins": [],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
+        {
             "title": "Delete surrounding tag",
             "slug": "delete-surrounding-tag",
             "description": "Press `dst`",
