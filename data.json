@@ -3,6 +3,16 @@
         "vscode-vim": {
             "name": "VSCode VIM",
             "url": "https://www.google.com"
+        },
+        "emmet": {
+            "name": "Emmet",
+            "url": "https://www.google.com"
+        }
+    },
+    "contributors": {
+        "muhajirdev": {
+            "name": "@muahjirdev",
+            "url": "https://muhajir.dev"
         }
     },
     "tips": [
@@ -13,6 +23,9 @@
             "gif": "https://cdn.hashnode.com/res/hashnode/image/upload/v1561899815957/rY6Rk-Qp8.gif",
             "plugins": [
                 "vscode-vim"
+            ],
+            "contributors": [
+                "muhajirdev"
             ]
         }
     ]
