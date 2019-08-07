@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Layout from "../components/layout";
 import { TWITTER_URL, TITLE, AUTHOR_TWITTER_URL } from "../config";
+import TipsCollection from "../components/TipsCollection";
 
 const GIF_SRC =
   "https://cdn.hashnode.com/res/hashnode/image/upload/v1561899815957/rY6Rk-Qp8.gif";
@@ -25,6 +26,9 @@ const Home = () => (
             className="w-full rounded shadow-2xl object-contain"
           />
         </div>
+      </section>
+      <section className="max-w-6xl mx-auto">
+        <TipsCollection />
       </section>
       {/* SECOND SECTION */}
       <section className="max-w-6xl mx-auto py-32">
