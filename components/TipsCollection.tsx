@@ -8,7 +8,7 @@ const TipsCollection = () => (
     {data.tips.map(t => (
       <Link href={getTipsLink(t.slug)}>
           <a className="text-white w-1/3 px-8 pb-12">
-            <img src={t.gif} />
+            <img src={t.gif} className="shadow-xl rounded" />
             <div className="mt-4">{t.title}</div>
           </a>
       </Link>
