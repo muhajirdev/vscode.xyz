@@ -1,20 +1,7 @@
-# NextJS TailwindCSS Typescript Template with PurgeCSS
+# VSCode.XYZ
 
-## Getting Started
+## Submitting GIF?
 
-```
-git clone https://github.com/muhajirdev/nextjs-tailwind-template
-cd nextjs-tailwind-template
-
-npm install
-npm run dev
-```
-
-to build
-
-```
-npm run build
-
-```
+All you need is editing this [data.json](https://github.com/muhajirdev/vscode.xyz/blob/master/data.json) file. That's it
 
 More info https://nextjs.org/learn/basics/getting-started
