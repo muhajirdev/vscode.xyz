@@ -19,7 +19,7 @@
         {
             "title": "Go to matching tag",
             "slug": "go-to-matching-tag",
-            "description": "Press `dst`",
+            "description": "Press `cmd+m`. But first, you need to make sure you already configure the keyboard shortcut. cmd +M as Emmet:Go to matching tag",
             "gif": "https://cdn.hashnode.com/res/hashnode/image/upload/v1562811003814/UHXvSZYgk.gif",
             "plugins": [],
             "contributors": [
@@ -37,6 +37,60 @@
             "contributors": [
                 "muhajirdev"
             ]
-        }
+        },
+        {
+            "title": "Delete in tag",
+            "slug": "delete-in-tag",
+            "description": "",
+            "gif": "https://cdn.hashnode.com/res/hashnode/image/upload/v1561899637547/wu98ydxWG.gif",
+            "plugins": [
+                "vscode-vim"
+            ],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
+        {
+            "title": "Change single quote to double quote",
+            "slug": "chnage-single-quote-to-double-quote",
+            "description": "",
+            "gif": "https://cdn.hashnode.com/res/hashnode/image/upload/v1561905097925/PfR687VHY.gif",
+            "plugins": [
+                "vscode-vim"
+            ],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
+        {
+            "title": "Change Tag with emmet",
+            "slug": "change-tag",
+            "description": "",
+            "gif": "https://cdn.hashnode.com/res/hashnode/image/upload/v1562235200819/Dpi0XgmSj.gif",
+            "plugins": [],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
+        {
+            "title": "Copy and paste with VIM",
+            "slug": "copy-paste-with-vim",
+            "description": "",
+            "gif": "https://cdn.hashnode.com/res/hashnode/image/upload/v1562926540034/Y0SvA7QX0.gif",
+            "plugins": [],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
+        {
+            "title": "Add return keyword to JS Arrow function",
+            "slug": "add-return-keyword-js",
+            "description": "",
+            "gif": "https://cdn.hashnode.com/res/hashnode/image/upload/v1562926540034/Y0SvA7QX0.gif",
+            "plugins": [],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
     ]
 }
