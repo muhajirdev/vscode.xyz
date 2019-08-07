@@ -1,0 +1,19 @@
+{
+    "plugins": {
+        "vscode-vim": {
+            "name": "VSCode VIM",
+            "url": "https://www.google.com"
+        }
+    },
+    "tips": [
+        {
+            "title": "How to ABC",
+            "slug": "how-to-abc",
+            "description": "just do this and that",
+            "gif": "https://www.google.com",
+            "plugins": [
+                "vscode-vim"
+            ]
+        }
+    ]
+}
