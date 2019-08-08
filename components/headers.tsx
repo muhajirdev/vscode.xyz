@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Header = () => (
   <header className="bg-dark-light absolute w-full shadow-lg">
-    <nav className="max-w-6xl mx-auto py-8 font-black text-xl flex justify-between">
+    <nav className="max-w-4xl xl:max-w-6xl mx-auto py-8 font-black text-xl flex justify-between px-8 lg:px-0">
       <Link href="/">
         <a>
           <h1 className="text-accent">{TITLE}</h1>
