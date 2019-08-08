@@ -7,10 +7,13 @@ const TipsCollection = () => (
   <div className="flex flex-wrap -mx-8">
     {data.tips.map(t => (
       <Link href={getTipsLink(t.slug)} key={t.slug}>
-          <a className="text-white w-1/3 px-8 pb-12">
-            <img src={t.gif} className="shadow-xl rounded" />
+        <a className="text-white w-1/3 px-8 pb-12">
+          <img src={t.gif} className="shadow-xl rounded" />
+          <div>
             <div className="mt-4">{t.title}</div>
-          </a>
+            <span className="underline">Read more</span>
+          </div>
+        </a>
       </Link>
     ))}
   </div>
