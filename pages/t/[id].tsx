@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import { ITips, IPlugin, IContributor } from "../../types";
 
 import Layout from "../../components/layout";
+import Shares from "../../components/shares";
 import data from "../../data.json";
 
 import { TWITTER_URL, GITHUB_ISSUE_URL } from "../../config";
@@ -40,7 +41,10 @@ const Plugins: React.FC<{ plugins: string[] }> = props => (
     <ul>
       {props.plugins.map(p => (
         <li className="ml-8 my-2" key={p}>
-          <a className="text-gray-200 text-lg font-bold" href={getPlugin(p).url}>
+          <a
+            className="text-gray-200 text-lg font-bold"
+            href={getPlugin(p).url}
+          >
             {getPlugin(p).name}
           </a>
         </li>
@@ -68,7 +72,10 @@ const Contributors: React.FC<{ contributors: string[] }> = props => (
     <ul>
       {props.contributors.map(p => (
         <li className="ml-8 my-2" key={p}>
-          <a className="text-gray-200 text-lg font-bold" href={getContributor(p).url}>
+          <a
+            className="text-gray-200 text-lg font-bold"
+            href={getContributor(p).url}
+          >
             {getContributor(p).name}
           </a>
         </li>
@@ -86,9 +93,12 @@ const Tips: React.FC<ITips> = props => {
         </div>
         <div className="w-1/3">
           <h1 className="text-white font-bold text-4xl mb-8">{props.title}</h1>
-          <h2 className="text-gray-200 text-xl font-bold">{props.description}</h2>
+          <h2 className="text-gray-200 text-xl font-bold">
+            {props.description}
+          </h2>
           <Plugins plugins={props.plugins} />
           <Contributors contributors={props.contributors} />
+          <Shares url={`https://vscode.xyz/t/${props.slug}`} />
         </div>
       </section>
       <section className="max-w-6xl mx-auto py-24">
@@ -97,8 +107,11 @@ const Tips: React.FC<ITips> = props => {
             Want to submit a tips?
           </h3>
           <h4 className="font-bold text-gray-400 text-lg">
-            Mention us on <a className="underline" href={TWITTER_URL}>twitter</a> or open an issue on
-            our{" "}
+            Mention us on{" "}
+            <a className="underline" href={TWITTER_URL}>
+              twitter
+            </a>{" "}
+            or open an issue on our{" "}
             <a className="underline" href={GITHUB_ISSUE_URL}>
               github repo
             </a>
