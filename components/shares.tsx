@@ -15,6 +15,7 @@ const Shares: React.FC<{ url: string }> = ({ url }) => {
         <a
           href={twitterShareURL}
           className="rounded-full bg-twitter text-white px-4 py-2 text-lg font-bold inline-flex items-center"
+          target="_blank"
         >
           <img className="inline-block w-6 mb-0" src="/static/twitter.svg" />
           <span className="ml-2">Share it</span>
@@ -22,6 +23,7 @@ const Shares: React.FC<{ url: string }> = ({ url }) => {
         <a
           href={facebookShareURL}
           className="rounded-full bg-facebook text-white px-4 py-2 text-lg font-bold inline-flex items-center"
+          target="_blank"
         >
           <img
             className="inline-block w-6 mb-0 fill-current"
