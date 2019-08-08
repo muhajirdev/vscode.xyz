@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import { NextPage } from "next";
 
 import { ITips, IPlugin, IContributor } from "../../types";
 
@@ -124,10 +125,7 @@ const Tips: React.FC<ITips> = props => {
   );
 };
 
-const Page = () => {
-  const router = useRouter();
-  const id = router.query.id;
-  const tips = data.tips.find(x => x.slug === id) as ITips | undefined;
+const Page: NextPage<{ tips: ITips | undefined }> = ({ tips }) => {
   if (!tips)
     return (
       <Layout>
@@ -153,6 +151,15 @@ const Page = () => {
       </div>
     </Layout>
   );
+};
+
+Page.getInitialProps = async context => {
+  const { id } = context.query;
+  const tips = data.tips.find(x => x.slug === id) as ITips | undefined;
+
+  return {
+    tips
+  };
 };
 
 export default Page;
