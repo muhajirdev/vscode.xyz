@@ -27,7 +27,9 @@ const Home = () => {
             <h1 className="text-white font-bold text-xl lg:text-6xl lg:mb-16">
               Animated VSCode Tips & Tricks
             </h1>
-            <h2 className="text-gray-200 text-md lg:text-2xl">from ABC to XYZ</h2>
+            <h2 className="text-gray-200 text-md lg:text-2xl">
+              from ABC to XYZ
+            </h2>
           </div>
           <div className="lg:w-1/2">
             <Link href={`/t/${featuredTips.slug}`}>
@@ -44,12 +46,12 @@ const Home = () => {
           <TipsCollection />
         </section>
         {/* SECOND SECTION */}
-        <section className="max-w-4xl xl:max-w-6xl mx-auto py-32 px-8 lg:px-0">
-          <div>
-            <h1 className="text-white font-bold text-xl lg:text-5xl mb-4 lg:mb-16">
-              We're not done yet :) }
-            </h1>
-            <h2 className="text-gray-200 text-md lg:text-2xl max-w-4xl">
+        <section className="max-w-4xl xl:max-w-6xl px-8 lg:px-0 mx-auto py-24">
+          <div className="max-w-2xl">
+            <h3 className="font-bold text-white text-3xl">
+              We're not done yet
+            </h3>
+            <h4 className="font-bold text-gray-400 text-lg">
               Follow us on twitter{" "}
               <a href={TWITTER_URL} className="underline">
                 @vscodexyz
@@ -59,7 +61,7 @@ const Home = () => {
                 @muhajirdev
               </a>{" "}
               for more animated tips and tricks
-            </h2>
+            </h4>
           </div>
         </section>
       </div>
