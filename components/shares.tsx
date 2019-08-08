@@ -1,9 +1,9 @@
 import { useRouter } from "next/router";
 import { OUR_URL } from "../config";
 
-const Shares: React.FC<{ url: string }> = ({ url }) => {
+const Shares: React.FC<{ title: string }> = ({ title }) => {
   const currentURL = `${OUR_URL}${useRouter().asPath}`;
-  const shareText = encodeURIComponent("Holy shit, this is awesome");
+  const shareText = encodeURIComponent(title);
   const twitterShareURL = `https://twitter.com/intent/tweet?text=${shareText}&url=${currentURL}&via=vscodexyz`;
   const facebookShareURL = `https://www.facebook.com/sharer/sharer.php?u=${currentURL}`;
   return (

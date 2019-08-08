@@ -100,7 +100,7 @@ const Tips: React.FC<ITips> = props => {
           </h2>
           <Plugins plugins={props.plugins} />
           <Contributors contributors={props.contributors} />
-          <Shares url={`https://vscode.xyz/t/${props.slug}`} />
+          <Shares title={props.title} />
         </div>
       </section>
       <section className="max-w-4xl xl:max-w-6xl px-8 lg:px-0 mx-auto py-24">
