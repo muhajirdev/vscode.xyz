@@ -19,7 +19,7 @@
         {
             "title": "Go to matching tag",
             "slug": "go-to-matching-tag",
-            "description": "Press `cmd+m`. But first, you need to make sure you already configure the keyboard shortcut. cmd +M as Emmet:Go to matching tag",
+            "description": "Press `cmd+m`. But first, you need to make sure you already configure the keyboard shortcut. cmd+m as Emmet:Go to matching tag",
             "gif": "https://cdn.hashnode.com/res/hashnode/image/upload/v1562811003814/UHXvSZYgk.gif",
             "plugins": [],
             "contributors": [
