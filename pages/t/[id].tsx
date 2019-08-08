@@ -4,15 +4,17 @@ import { ITips, IPlugin, IContributor } from "../../types";
 
 import Layout from "../../components/layout";
 import Shares from "../../components/shares";
+import Meta from "../../components/meta";
 import data from "../../data.json";
 
 import { TWITTER_URL, GITHUB_ISSUE_URL } from "../../config";
+const NOT_FOUND_TITLE = "Oops, we can't find that tips";
+const NOT_FOUND_DESCRIPTION =
+  "Please contact us on twitter if you think something is wrong";
 const NotFound = () => (
   <section className="max-w-6xl mx-auto flex py-32">
     <div className="w-1/2">
-      <h1 className="text-white font-bold text-6xl mb-16">
-        Oops, we can't find that tips
-      </h1>
+      <h1 className="text-white font-bold text-6xl mb-16">{NOT_FOUND_TITLE}</h1>
       <h2 className="text-gray-200 text-3xl">
         Please contact us on{" "}
         <a className="underline" href={TWITTER_URL}>
@@ -126,10 +128,28 @@ const Page = () => {
   const router = useRouter();
   const id = router.query.id;
   const tips = data.tips.find(x => x.slug === id) as ITips | undefined;
+  if (!tips)
+    return (
+      <Layout>
+        <div className="bg-dark pt-32 min-h-screen">
+          <Meta
+            title={NOT_FOUND_TITLE}
+            description={NOT_FOUND_DESCRIPTION}
+            image="https://http.cat/404"
+          />
+          <NotFound />
+        </div>
+      </Layout>
+    );
   return (
     <Layout>
+      <Meta
+        title={tips.title}
+        description={tips.description}
+        image={tips.gif}
+      />
       <div className="bg-dark pt-32 min-h-screen">
-        {tips ? <Tips {...tips} /> : <NotFound />}
+        <Tips {...tips} />
       </div>
     </Layout>
   );
