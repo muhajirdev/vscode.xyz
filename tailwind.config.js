@@ -3,6 +3,7 @@ module.exports = {
     extend: {
       colors: {
         twitter: "#1DA1F2",
+        facebook: "#4172B8",
         dark: {
           default: "#2E3440",
           light: "#303642"
