@@ -14,7 +14,7 @@ const Shares: React.FC<{ url: string }> = ({ url }) => {
       <div className="mt-4">
         <a
           href={twitterShareURL}
-          className="rounded-full bg-twitter text-white px-4 py-2 text-lg font-bold inline-flex items-center"
+          className="rounded-full bg-twitter text-white px-4 py-2 text-lg font-bold inline-flex items-center mr-4"
           target="_blank"
         >
           <img className="inline-block w-6 mb-0" src="/static/twitter.svg" />
