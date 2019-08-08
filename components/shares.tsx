@@ -3,7 +3,7 @@ import { OUR_URL } from "../config";
 
 const Shares: React.FC<{ title: string }> = ({ title }) => {
   const currentURL = `${OUR_URL}${useRouter().asPath}`;
-  const shareText = encodeURIComponent(title);
+  const shareText = encodeURIComponent(`${title}. #VSCode #VSCodeTips @code`);
   const twitterShareURL = `https://twitter.com/intent/tweet?text=${shareText}&url=${currentURL}&via=vscodexyz`;
   const facebookShareURL = `https://www.facebook.com/sharer/sharer.php?u=${currentURL}`;
   return (
