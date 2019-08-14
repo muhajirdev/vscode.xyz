@@ -1,6 +1,6 @@
 import { TITLE, TWITTER_URL } from "../config";
 const TWITTER_LOGO_PATH = "/static/twitter.svg";
-import Link from 'next/link'
+import Link from "next/link";
 
 const Header = () => (
   <header className="bg-dark-light absolute w-full shadow-lg">
@@ -10,9 +10,16 @@ const Header = () => (
           <h1 className="text-accent">{TITLE}</h1>
         </a>
       </Link>
-      <a href={TWITTER_URL} className="w-8">
-        <img src={TWITTER_LOGO_PATH} />
-      </a>
+      <div className="flex items-center">
+        <Link href="/faq">
+          <a className="mr-4">
+            <h1 className="text-accent">FAQ</h1>
+          </a>
+        </Link>
+        <a href={TWITTER_URL} className="w-6">
+          <img src={TWITTER_LOGO_PATH} />
+        </a>
+      </div>
     </nav>
   </header>
 );
