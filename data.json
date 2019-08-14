@@ -86,7 +86,27 @@
             "title": "Add return keyword to JS Arrow function",
             "slug": "add-return-keyword-js",
             "description": "",
-            "gif": "https://cdn.hashnode.com/res/hashnode/image/upload/v1562926540034/Y0SvA7QX0.gif",
+            "gif": "https://user-images.githubusercontent.com/12745166/62989801-b6dd8c80-be73-11e9-834e-150f5e4f869b.gif",
+            "plugins": [],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
+        {
+            "title": "Emmet Balance Out",
+            "slug": "emmet-balance-out",
+            "description": "",
+            "gif": "https://user-images.githubusercontent.com/12745166/62989759-96153700-be73-11e9-9486-a65f3f0a57f3.gif",
+            "plugins": [],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
+        {
+            "title": "Emmet Balance In",
+            "slug": "emmet-balance-in",
+            "description": "",
+            "gif": "https://user-images.githubusercontent.com/12745166/62989759-96153700-be73-11e9-9486-a65f3f0a57f3.gif",
             "plugins": [],
             "contributors": [
                 "muhajirdev"
