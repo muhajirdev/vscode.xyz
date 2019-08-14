@@ -40,7 +40,9 @@ const getPlugin = (id: string): IPlugin => {
 
 const Plugins: React.FC<{ plugins: string[] }> = props => (
   <div>
-    <h3 className="text-gray-200 text-2xl mt-8 font-bold">Plugins</h3>
+    {props.plugins.length > 0 && (
+      <h3 className="text-gray-200 text-2xl mt-8 font-bold">Plugins</h3>
+    )}
     <ul>
       {props.plugins.map(p => (
         <li className="ml-8 my-2" key={p}>
