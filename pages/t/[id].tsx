@@ -9,6 +9,7 @@ import Meta from "../../components/meta";
 import data from "../../data.json";
 
 import { TWITTER_URL, GITHUB_ISSUE_URL } from "../../config";
+import Link from "next/link";
 const NOT_FOUND_TITLE = "Oops, we can't find that tips";
 const NOT_FOUND_DESCRIPTION =
   "Please contact us on twitter if you think something is wrong";
@@ -104,6 +105,12 @@ const Tips: React.FC<ITips> = props => {
           <Plugins plugins={props.plugins} />
           <Contributors contributors={props.contributors} />
           <Shares title={props.title} />
+          <h3 className="text-gray-400">
+            Not working? Read{" "}
+            <Link href="/faq">
+              <a className="underline">FAQ</a>
+            </Link>
+          </h3>
         </div>
       </section>
       <section className="max-w-4xl xl:max-w-6xl px-8 lg:px-0 mx-auto py-24">
