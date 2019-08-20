@@ -132,17 +132,19 @@
                 "muhajirdev"
             ]
         },
-         {
+        {
             "title": "VIM: Copy first line, paste last line",
             "slug": "vim-copy-first-line-paste-last-line",
             "description": "",
             "gif": "https://user-images.githubusercontent.com/12745166/62989762-97466400-be73-11e9-9936-dff8a8e0e4f9.gif",
-            "plugins": ["vscode-vim"],
+            "plugins": [
+                "vscode-vim"
+            ],
             "contributors": [
                 "muhajirdev"
             ]
         },
-         {
+        {
             "title": "Delete one indentation level",
             "slug": "delete-one-indetation-level",
             "description": "",
@@ -182,7 +184,7 @@
                 "muhajirdev"
             ]
         },
-         {
+        {
             "title": "Move between terminal pane (1)",
             "slug": "move-between-terminal-pane-1",
             "description": "",
@@ -202,7 +204,7 @@
                 "muhajirdev"
             ]
         },
-         {
+        {
             "title": "Git: Add file to staging",
             "slug": "git-add-file-to-staging",
             "description": "",
@@ -222,7 +224,7 @@
                 "muhajirdev"
             ]
         },
-          {
+        {
             "title": "Split terminal",
             "slug": "split-terminal",
             "description": "",
@@ -241,6 +243,6 @@
             "contributors": [
                 "muhajirdev"
             ]
-        },
+        }
     ]
 }
