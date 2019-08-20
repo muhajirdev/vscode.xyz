@@ -111,6 +111,136 @@
             "contributors": [
                 "muhajirdev"
             ]
-        }
+        },
+        {
+            "title": "Update surrounding tag",
+            "slug": "update-surrounding-tag",
+            "description": "",
+            "gif": "https://user-images.githubusercontent.com/12745166/62989760-96adcd80-be73-11e9-9abe-f385c8cc7ee2.gif",
+            "plugins": [],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
+        {
+            "title": "Git commit shortcut",
+            "slug": "git-commit-shortcut",
+            "description": "",
+            "gif": "https://user-images.githubusercontent.com/12745166/62989761-96adcd80-be73-11e9-8f6b-911e327b82df.gif",
+            "plugins": [],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
+         {
+            "title": "VIM: Copy first line, paste last line",
+            "slug": "vim-copy-first-line-paste-last-line",
+            "description": "",
+            "gif": "https://user-images.githubusercontent.com/12745166/62989762-97466400-be73-11e9-9936-dff8a8e0e4f9.gif",
+            "plugins": ["vscode-vim"],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
+         {
+            "title": "Delete one indentation level",
+            "slug": "delete-one-indetation-level",
+            "description": "",
+            "gif": "https://user-images.githubusercontent.com/12745166/62989763-97466400-be73-11e9-9f53-25bd76db6c19.gif",
+            "plugins": [],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
+        {
+            "title": "Delete one indentation level",
+            "slug": "delete-one-indetation-level",
+            "description": "",
+            "gif": "https://user-images.githubusercontent.com/12745166/62989763-97466400-be73-11e9-9f53-25bd76db6c19.gif",
+            "plugins": [],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
+        {
+            "title": "Wrap with html tag",
+            "slug": "wrap-with-html-tag",
+            "description": "",
+            "gif": "https://user-images.githubusercontent.com/12745166/62989772-a200f900-be73-11e9-8d82-c786a62885e0.gif",
+            "plugins": [],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
+        {
+            "title": "Wrap with div class",
+            "slug": "wrap-with-div-class",
+            "description": "",
+            "gif": "https://user-images.githubusercontent.com/12745166/62989774-a2998f80-be73-11e9-918c-7123be6e4e8b.gif",
+            "plugins": [],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
+         {
+            "title": "Move between terminal pane (1)",
+            "slug": "move-between-terminal-pane-1",
+            "description": "",
+            "gif": "https://user-images.githubusercontent.com/12745166/62989781-a9c09d80-be73-11e9-9312-e42c1eca373d.gif",
+            "plugins": [],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
+        {
+            "title": "Move between terminal pane (2)",
+            "slug": "move-between-terminal-pane-2",
+            "description": "",
+            "gif": "https://user-images.githubusercontent.com/12745166/62989784-ac22f780-be73-11e9-9f5a-2d0ab2344eac.gif",
+            "plugins": [],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
+         {
+            "title": "Git: Add file to staging",
+            "slug": "git-add-file-to-staging",
+            "description": "",
+            "gif": "https://user-images.githubusercontent.com/12745166/62989787-afb67e80-be73-11e9-985b-84e0a36b2cc5.gif",
+            "plugins": [],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
+        {
+            "title": "Create new file",
+            "slug": "create-new-file",
+            "description": "",
+            "gif": "https://user-images.githubusercontent.com/12745166/62989798-b644f600-be73-11e9-9d05-ddc3265c8490.gif",
+            "plugins": [],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
+          {
+            "title": "Split terminal",
+            "slug": "split-terminal",
+            "description": "",
+            "gif": "https://user-images.githubusercontent.com/12745166/62989798-b644f600-be73-11e9-9d05-ddc3265c8490.gif",
+            "plugins": [],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
+        {
+            "title": "Delete this indent level",
+            "slug": "delete-this-indent-level",
+            "description": "",
+            "gif": "https://user-images.githubusercontent.com/12745166/62989764-97defa80-be73-11e9-8df7-f1ae630556b1.gif",
+            "plugins": [],
+            "contributors": [
+                "muhajirdev"
+            ]
+        },
     ]
 }
