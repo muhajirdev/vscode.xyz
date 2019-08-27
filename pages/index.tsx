@@ -27,9 +27,21 @@ const Home = () => {
             <h1 className="text-white font-bold text-xl lg:text-6xl lg:mb-16">
               Animated VSCode Tips & Tricks
             </h1>
-            <h2 className="text-gray-200 text-md lg:text-2xl">
+            <h2 className="text-gray-200 text-md lg:text-2xl mb-4">
               from ABC to XYZ
             </h2>
+            <a
+              href="https://www.producthunt.com/posts/vscode-xyz?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-vscode-xyz"
+              target="_blank"
+            >
+              <img
+                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=165774&theme=dark"
+                alt="VSCode.xyz - Quick & Actioanable VSCode Tips In GIF | Product Hunt Embed"
+                style={{ width: 250, height: 54 }}
+                width="250px"
+                height="54px"
+              />
+            </a>
           </div>
           <div className="lg:w-1/2">
             <Link href={`/t/${featuredTips.slug}`}>
