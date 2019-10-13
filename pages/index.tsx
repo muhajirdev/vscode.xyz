@@ -28,6 +28,18 @@ const Home = () => {
               VSCode <br />
               Tips & Tricks Collections in GIF!
             </h1>
+            <a
+              href="https://www.producthunt.com/posts/vscode-xyz?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-vscode-xyz"
+              target="_blank"
+            >
+              <img
+                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=165774&theme=dark"
+                alt="VSCode.xyz - Quick & Actioanable VSCode Tips In GIF | Product Hunt Embed"
+                style={{ width: 250, height: 54 }}
+                width="250px"
+                height="54px"
+              />
+            </a>
           </div>
           <div className="lg:w-1/2">
             <Link href={`/t/${featuredTips.slug}`}>
