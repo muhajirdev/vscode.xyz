@@ -249,7 +249,7 @@
             ]
         },
         {
-            "title": "Compare with last saved",
+            "title": "Compare changes with last save",
             "slug": "compare-with-last-save",
             "description": "",
             "gif": "https://bluemarlin1134.github.io/randomimageurls/compare-last-with-save.gif",
