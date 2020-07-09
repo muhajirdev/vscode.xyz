@@ -25,11 +25,21 @@ const Home = () => {
         <section className="max-w-4xl xl:max-w-6xl mx-auto lg:flex px-8 lg:px-0 py-8 lg:py-32">
           <div className="lg:w-1/2 mb-8 lg:mb-0">
             <h1 className="text-white font-bold text-xl lg:text-6xl lg:mb-16">
-              Animated VSCode Tips & Tricks
+              VSCode <br />
+              Tips & Tricks Collections in GIF!
             </h1>
-            <h2 className="text-gray-200 text-md lg:text-2xl">
-              from ABC to XYZ
-            </h2>
+            <a
+              href="https://www.producthunt.com/posts/vscode-xyz?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-vscode-xyz"
+              target="_blank"
+            >
+              <img
+                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=165774&theme=dark"
+                alt="VSCode.xyz - Quick & Actioanable VSCode Tips In GIF | Product Hunt Embed"
+                style={{ width: 250, height: 54 }}
+                width="250px"
+                height="54px"
+              />
+            </a>
           </div>
           <div className="lg:w-1/2">
             <Link href={`/t/${featuredTips.slug}`}>
